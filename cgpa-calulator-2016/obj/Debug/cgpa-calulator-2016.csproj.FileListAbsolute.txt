@@ -1,0 +1,11 @@
+E:\c# job report\cgpa-calulator-2016\bin\Debug\cgpa-calulator-2016.exe.config
+E:\c# job report\cgpa-calulator-2016\bin\Debug\cgpa-calulator-2016.exe
+E:\c# job report\cgpa-calulator-2016\bin\Debug\cgpa-calulator-2016.pdb
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa-calulator-2016.csproj.AssemblyReference.cache
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa-calulator-2016.csproj.SuggestedBindingRedirects.cache
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa_calulator_2016.Form1.resources
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa_calulator_2016.Properties.Resources.resources
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa-calulator-2016.csproj.GenerateResource.cache
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa-calulator-2016.csproj.CoreCompileInputs.cache
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa-calulator-2016.exe
+E:\c# job report\cgpa-calulator-2016\obj\Debug\cgpa-calulator-2016.pdb

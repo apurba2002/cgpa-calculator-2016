@@ -1,0 +1,107 @@
+double tc_mark_s1 = Convert.ToDouble(textBox1.Text);
+            double tf_mark_s1 = Convert.ToDouble(textBox2.Text);
+            double pc_mark_s1 = Convert.ToDouble(textBox3.Text);
+            double pf_mark_s1 = Convert.ToDouble(textBox4.Text);
+            int c_hours_s1 = Convert.ToInt32(textBox5.Text);
+            int total_marks_s1 = 200;
+            double ob_mark_s1 = tc_mark_s1 + tf_mark_s1 + pc_mark_s1 + pf_mark_s1;
+            double mark_s1 = ob_mark_s1 / (total_marks_s1 / 100);
+            double gp_s1=0.00;
+
+            if (mark_s1 <= 100.00 && mark_s1 >= 80.00)
+                    {
+                gp_s1 = 4.00;
+            }
+            else if (mark_s1<80 && mark_s1>=75)
+                    {
+                gp_s1 = 3.75;
+            }
+            else if (mark_s1 < 75 && mark_s1 >= 70)
+            {
+                gp_s1 = 3.50;
+            }
+            else if (mark_s1 < 70 && mark_s1 >= 65)
+            {
+                gp_s1 = 3.25;
+            }
+            else if (mark_s1 < 65 && mark_s1 >= 60)
+            {
+                gp_s1 = 3.00;
+            }
+            else if (mark_s1 < 60 && mark_s1 >= 55)
+            {
+                gp_s1 = 2.75;
+            }
+            else if (mark_s1 < 55 && mark_s1 >= 50)
+            {
+                gp_s1 = 3.50;
+            }
+            else if (mark_s1 < 50 && mark_s1 >= 45)
+            {
+                gp_s1 = 2.25;
+            }
+            else if (mark_s1 < 45 && mark_s1 >= 40)
+            {
+                gp_s1 = 2.0;
+            }
+            else
+            {
+                gp_s1 = 0.00;
+            }
+            double cgp_s1 = c_hours_s1 * gp_s1;
+
+
+
+            // subject 2
+
+            double tc_mark_s2 = Convert.ToDouble(textBox10.Text);
+            double tf_mark_s2 = Convert.ToDouble(textBox9.Text);
+            double pc_mark_s2 = Convert.ToDouble(textBox8.Text);
+            double pf_mark_s2 = Convert.ToDouble(textBox7.Text);
+            int c_hours_s2 = Convert.ToInt32(textBox6.Text);
+            int total_marks_s2 = 150;
+            double ob_mark_s2 = tc_mark_s2 + tf_mark_s2 + pc_mark_s2 + pf_mark_s2;
+            double mark_s2 = ob_mark_s2 / (total_marks_s2 / 100);
+           double gp_s2 = 0.00;
+
+            if (mark_s2 <= 100.00 && mark_s2 >= 80.00)
+            {
+                gp_s2 = 4.00;
+            }
+            else if (mark_s2 < 80 && mark_s2 >= 75)
+            {
+                gp_s2 = 3.75;
+            }
+            else if (mark_s2 < 75 && mark_s2 >= 70)
+            {
+                gp_s2 = 3.50;
+            }
+            else if (mark_s2 < 70 && mark_s2 >= 65)
+            {
+                gp_s2 = 3.25;
+            }
+            else if (mark_s2 < 65 && mark_s2 >= 60)
+            {
+                gp_s2 = 3.00;
+            }
+            else if (mark_s2 < 60 && mark_s2 >= 55)
+            {
+                gp_s2 = 2.75;
+            }
+            else if (mark_s2 < 55 && mark_s2 >= 50)
+            {
+                gp_s2 = 3.50;
+            }
+            else if (mark_s2 < 50 && mark_s2 >= 45)
+            {
+                gp_s2 = 2.25;
+            }
+            else if (mark_s2 < 45 && mark_s2 >= 40)
+            {
+                gp_s2 = 2.0;
+            }
+            else
+            {
+                gp_s2 = 0.00;
+            }
+            double cgp_s2 = c_hours_s2 * gp_s2;
